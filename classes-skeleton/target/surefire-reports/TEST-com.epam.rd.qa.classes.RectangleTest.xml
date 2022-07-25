@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.epam.rd.qa.classes.RectangleTest" time="0.388" tests="30" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\QAAutomationSummer2022\classes-skeleton\target\test-classes;C:\QAAutomationSummer2022\classes-skeleton\target\classes;C:\Users\user\.m2\repository\com\tngtech\archunit\archunit-junit5\0.23.1\archunit-junit5-0.23.1.jar;C:\Users\user\.m2\repository\com\tngtech\archunit\archunit-junit5-api\0.23.1\archunit-junit5-api-0.23.1.jar;C:\Users\user\.m2\repository\com\tngtech\archunit\archunit\0.23.1\archunit-0.23.1.jar;C:\Users\user\.m2\repository\com\tngtech\archunit\archunit-junit5-engine\0.23.1\archunit-junit5-engine-0.23.1.jar;C:\Users\user\.m2\repository\com\tngtech\archunit\archunit-junit5-engine-api\0.23.1\archunit-junit5-engine-api-0.23.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\user\.m2\repository\org\mockito\mockito-junit-jupiter\4.3.1\mockito-junit-jupiter-4.3.1.jar;C:\Users\user\.m2\repository\org\mockito\mockito-core\4.3.1\mockito-core-4.3.1.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.12.7\byte-buddy-1.12.7.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.7\byte-buddy-agent-1.12.7.jar;C:\Users\user\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.35\slf4j-api-1.7.35.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\user\.jdks\corretto-16.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire5941029806375156201\surefirebooter11855088603443214767.jar C:\Users\user\AppData\Local\Temp\surefire5941029806375156201 2022-07-23T02-12-57_603-jvmRun1 surefire16337399728785937950tmp surefire_09980170667482024024tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\QAAutomationSummer2022\classes-skeleton\target\test-classes;C:\QAAutomationSummer2022\classes-skeleton\target\classes;C:\Users\user\.m2\repository\com\tngtech\archunit\archunit-junit5\0.23.1\archunit-junit5-0.23.1.jar;C:\Users\user\.m2\repository\com\tngtech\archunit\archunit-junit5-api\0.23.1\archunit-junit5-api-0.23.1.jar;C:\Users\user\.m2\repository\com\tngtech\archunit\archunit\0.23.1\archunit-0.23.1.jar;C:\Users\user\.m2\repository\com\tngtech\archunit\archunit-junit5-engine\0.23.1\archunit-junit5-engine-0.23.1.jar;C:\Users\user\.m2\repository\com\tngtech\archunit\archunit-junit5-engine-api\0.23.1\archunit-junit5-engine-api-0.23.1.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\user\.m2\repository\org\mockito\mockito-junit-jupiter\4.3.1\mockito-junit-jupiter-4.3.1.jar;C:\Users\user\.m2\repository\org\mockito\mockito-core\4.3.1\mockito-core-4.3.1.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.12.7\byte-buddy-1.12.7.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.7\byte-buddy-agent-1.12.7.jar;C:\Users\user\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.35\slf4j-api-1.7.35.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Users\user\.jdks\corretto-16.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\QAAutomationSummer2022\classes-skeleton"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire5941029806375156201\surefirebooter11855088603443214767.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.2+7"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-16.0.2.7.1"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-jdk/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.2.4"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="C:\QAAutomationSummer2022\classes-skeleton"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\user\.jdks\corretto-16.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;%JAVA_HOME%\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;;C:\Users\user\AppData\Roaming\npm;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\Java\jdk-11.0.13\bin;C:\Program Files\Java\jdk-11.0.13;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="16.0.2+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="testConstructorShouldThrow" classname="com.epam.rd.qa.classes.RectangleTest" time="0.002"/>
+  <testcase name="testCompliance" classname="com.epam.rd.qa.classes.RectangleTest" time="0"/>
+  <testcase name="testArea{double, double, double, double}[1]" classname="com.epam.rd.qa.classes.RectangleTest" time="0"/>
+  <testcase name="testArea{double, double, double, double}[2]" classname="com.epam.rd.qa.classes.RectangleTest" time="0"/>
+  <testcase name="testArea{double, double, double, double}[3]" classname="com.epam.rd.qa.classes.RectangleTest" time="0"/>
+  <testcase name="testArea{double, double, double, double}[4]" classname="com.epam.rd.qa.classes.RectangleTest" time="0"/>
+  <testcase name="testArea{double, double, double, double}[5]" classname="com.epam.rd.qa.classes.RectangleTest" time="0"/>
+  <testcase name="testArea{double, double, double, double}[6]" classname="com.epam.rd.qa.classes.RectangleTest" time="0"/>
+  <testcase name="testArea{double, double, double, double}[7]" classname="com.epam.rd.qa.classes.RectangleTest" time="0"/>
+  <testcase name="testArea{double, double, double, double}[8]" classname="com.epam.rd.qa.classes.RectangleTest" time="0.001"/>
+  <testcase name="testArea{double, double, double, double}[9]" classname="com.epam.rd.qa.classes.RectangleTest" time="0"/>
+  <testcase name="testArea{double, double, double, double}[10]" classname="com.epam.rd.qa.classes.RectangleTest" time="0"/>
+  <testcase name="testArea{double, double, double, double}[11]" classname="com.epam.rd.qa.classes.RectangleTest" time="0"/>
+  <testcase name="testArea{double, double, double, double}[12]" classname="com.epam.rd.qa.classes.RectangleTest" time="0.003"/>
+  <testcase name="testArea{double, double, double, double}[13]" classname="com.epam.rd.qa.classes.RectangleTest" time="0.003"/>
+  <testcase name="testArea{double, double, double, double}[14]" classname="com.epam.rd.qa.classes.RectangleTest" time="0.003"/>
+  <testcase name="testArea{double, double, double, double}[15]" classname="com.epam.rd.qa.classes.RectangleTest" time="0.006"/>
+  <testcase name="testArea{double, double, double, double}[16]" classname="com.epam.rd.qa.classes.RectangleTest" time="0.006"/>
+  <testcase name="testArea{double, double, double, double}[17]" classname="com.epam.rd.qa.classes.RectangleTest" time="0.003"/>
+  <testcase name="testArea{double, double, double, double}[18]" classname="com.epam.rd.qa.classes.RectangleTest" time="0.002"/>
+  <testcase name="testArea{double, double, double, double}[19]" classname="com.epam.rd.qa.classes.RectangleTest" time="0.002"/>
+  <testcase name="testArea{double, double, double, double}[20]" classname="com.epam.rd.qa.classes.RectangleTest" time="0.001"/>
+  <testcase name="testConstructorShouldCreate" classname="com.epam.rd.qa.classes.RectangleTest" time="0.002"/>
+  <testcase name="testHashCodeEquals{double, double}[1]" classname="com.epam.rd.qa.classes.RectangleTest" time="0.084">
+    <failure message="The methods &apos;equals&apos; and &apos;hashCode&apos; must be implemented ==&gt; expected: com.epam.rd.qa.classes.Rectangle@213deac2&lt;Rectungle{sideA = 3.774807795813292, sideB =4.0840210832173245}&gt; but was: com.epam.rd.qa.classes.Rectangle@23eee4b8&lt;Rectungle{sideA = 3.774807795813292, sideB =4.0840210832173245}&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: The methods 'equals' and 'hashCode' must be implemented ==> expected: com.epam.rd.qa.classes.Rectangle@213deac2<Rectungle{sideA = 3.774807795813292, sideB =4.0840210832173245}> but was: com.epam.rd.qa.classes.Rectangle@23eee4b8<Rectungle{sideA = 3.774807795813292, sideB =4.0840210832173245}>
+	at com.epam.rd.qa.classes.RectangleTest.testHashCodeEquals(RectangleTest.java:156)
+]]></failure>
+  </testcase>
+  <testcase name="testHashCodeEquals{double, double}[2]" classname="com.epam.rd.qa.classes.RectangleTest" time="0.006">
+    <failure message="The methods &apos;equals&apos; and &apos;hashCode&apos; must be implemented ==&gt; expected: com.epam.rd.qa.classes.Rectangle@6bff19ff&lt;Rectungle{sideA = 4.524579096909379, sideB =4.9157321769612565}&gt; but was: com.epam.rd.qa.classes.Rectangle@41e1455d&lt;Rectungle{sideA = 4.524579096909379, sideB =4.9157321769612565}&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: The methods 'equals' and 'hashCode' must be implemented ==> expected: com.epam.rd.qa.classes.Rectangle@6bff19ff<Rectungle{sideA = 4.524579096909379, sideB =4.9157321769612565}> but was: com.epam.rd.qa.classes.Rectangle@41e1455d<Rectungle{sideA = 4.524579096909379, sideB =4.9157321769612565}>
+	at com.epam.rd.qa.classes.RectangleTest.testHashCodeEquals(RectangleTest.java:156)
+]]></failure>
+  </testcase>
+  <testcase name="testHashCodeEquals{double, double}[3]" classname="com.epam.rd.qa.classes.RectangleTest" time="0.01">
+    <failure message="The methods &apos;equals&apos; and &apos;hashCode&apos; must be implemented ==&gt; expected: com.epam.rd.qa.classes.Rectangle@4e558728&lt;Rectungle{sideA = 3.420658250499622, sideB =2.0364534638016063}&gt; but was: com.epam.rd.qa.classes.Rectangle@5eccd3b9&lt;Rectungle{sideA = 3.420658250499622, sideB =2.0364534638016063}&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: The methods 'equals' and 'hashCode' must be implemented ==> expected: com.epam.rd.qa.classes.Rectangle@4e558728<Rectungle{sideA = 3.420658250499622, sideB =2.0364534638016063}> but was: com.epam.rd.qa.classes.Rectangle@5eccd3b9<Rectungle{sideA = 3.420658250499622, sideB =2.0364534638016063}>
+	at com.epam.rd.qa.classes.RectangleTest.testHashCodeEquals(RectangleTest.java:156)
+]]></failure>
+  </testcase>
+  <testcase name="testHashCodeEquals{double, double}[4]" classname="com.epam.rd.qa.classes.RectangleTest" time="0.019">
+    <failure message="The methods &apos;equals&apos; and &apos;hashCode&apos; must be implemented ==&gt; expected: com.epam.rd.qa.classes.Rectangle@4d6f197e&lt;Rectungle{sideA = 1.1907559022087937, sideB =2.0990628972043153}&gt; but was: com.epam.rd.qa.classes.Rectangle@6ef7623&lt;Rectungle{sideA = 1.1907559022087937, sideB =2.0990628972043153}&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: The methods 'equals' and 'hashCode' must be implemented ==> expected: com.epam.rd.qa.classes.Rectangle@4d6f197e<Rectungle{sideA = 1.1907559022087937, sideB =2.0990628972043153}> but was: com.epam.rd.qa.classes.Rectangle@6ef7623<Rectungle{sideA = 1.1907559022087937, sideB =2.0990628972043153}>
+	at com.epam.rd.qa.classes.RectangleTest.testHashCodeEquals(RectangleTest.java:156)
+]]></failure>
+  </testcase>
+  <testcase name="testHashCodeEquals{double, double}[5]" classname="com.epam.rd.qa.classes.RectangleTest" time="0.022">
+    <failure message="The methods &apos;equals&apos; and &apos;hashCode&apos; must be implemented ==&gt; expected: com.epam.rd.qa.classes.Rectangle@64e1dd11&lt;Rectungle{sideA = 1.6893570647499643, sideB =1.8310464977011263}&gt; but was: com.epam.rd.qa.classes.Rectangle@5c089b2f&lt;Rectungle{sideA = 1.6893570647499643, sideB =1.8310464977011263}&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: The methods 'equals' and 'hashCode' must be implemented ==> expected: com.epam.rd.qa.classes.Rectangle@64e1dd11<Rectungle{sideA = 1.6893570647499643, sideB =1.8310464977011263}> but was: com.epam.rd.qa.classes.Rectangle@5c089b2f<Rectungle{sideA = 1.6893570647499643, sideB =1.8310464977011263}>
+	at com.epam.rd.qa.classes.RectangleTest.testHashCodeEquals(RectangleTest.java:156)
+]]></failure>
+  </testcase>
+  <testcase name="testIsSquare" classname="com.epam.rd.qa.classes.RectangleTest" time="0.011"/>
+  <testcase name="testReplaceSides" classname="com.epam.rd.qa.classes.RectangleTest" time="0.009"/>
+</testsuite>

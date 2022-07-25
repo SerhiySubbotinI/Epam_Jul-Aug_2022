@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.rd.qa.classes.RectangleTest
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.388 s <<< FAILURE! - in com.epam.rd.qa.classes.RectangleTest
+testHashCodeEquals{double, double}[1]  Time elapsed: 0.084 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The methods 'equals' and 'hashCode' must be implemented ==> expected: com.epam.rd.qa.classes.Rectangle@213deac2<Rectungle{sideA = 3.774807795813292, sideB =4.0840210832173245}> but was: com.epam.rd.qa.classes.Rectangle@23eee4b8<Rectungle{sideA = 3.774807795813292, sideB =4.0840210832173245}>
+	at com.epam.rd.qa.classes.RectangleTest.testHashCodeEquals(RectangleTest.java:156)
+
+testHashCodeEquals{double, double}[2]  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The methods 'equals' and 'hashCode' must be implemented ==> expected: com.epam.rd.qa.classes.Rectangle@6bff19ff<Rectungle{sideA = 4.524579096909379, sideB =4.9157321769612565}> but was: com.epam.rd.qa.classes.Rectangle@41e1455d<Rectungle{sideA = 4.524579096909379, sideB =4.9157321769612565}>
+	at com.epam.rd.qa.classes.RectangleTest.testHashCodeEquals(RectangleTest.java:156)
+
+testHashCodeEquals{double, double}[3]  Time elapsed: 0.01 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The methods 'equals' and 'hashCode' must be implemented ==> expected: com.epam.rd.qa.classes.Rectangle@4e558728<Rectungle{sideA = 3.420658250499622, sideB =2.0364534638016063}> but was: com.epam.rd.qa.classes.Rectangle@5eccd3b9<Rectungle{sideA = 3.420658250499622, sideB =2.0364534638016063}>
+	at com.epam.rd.qa.classes.RectangleTest.testHashCodeEquals(RectangleTest.java:156)
+
+testHashCodeEquals{double, double}[4]  Time elapsed: 0.019 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The methods 'equals' and 'hashCode' must be implemented ==> expected: com.epam.rd.qa.classes.Rectangle@4d6f197e<Rectungle{sideA = 1.1907559022087937, sideB =2.0990628972043153}> but was: com.epam.rd.qa.classes.Rectangle@6ef7623<Rectungle{sideA = 1.1907559022087937, sideB =2.0990628972043153}>
+	at com.epam.rd.qa.classes.RectangleTest.testHashCodeEquals(RectangleTest.java:156)
+
+testHashCodeEquals{double, double}[5]  Time elapsed: 0.022 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The methods 'equals' and 'hashCode' must be implemented ==> expected: com.epam.rd.qa.classes.Rectangle@64e1dd11<Rectungle{sideA = 1.6893570647499643, sideB =1.8310464977011263}> but was: com.epam.rd.qa.classes.Rectangle@5c089b2f<Rectungle{sideA = 1.6893570647499643, sideB =1.8310464977011263}>
+	at com.epam.rd.qa.classes.RectangleTest.testHashCodeEquals(RectangleTest.java:156)
+
