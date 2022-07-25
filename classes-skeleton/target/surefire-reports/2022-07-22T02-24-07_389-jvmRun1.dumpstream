@@ -1,0 +1,277 @@
+# Created at 2022-07-22T02:24:14.311
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+
+# Created at 2022-07-22T02:24:14.835
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.ArrayRectanglesTest,testConstructorShouldCreate,null,null,null
+
+
+# Created at 2022-07-22T02:24:14.879
+Unexpected IOException: 7,1,com.epam.rd.qa.classes.ArrayRectanglesTest,testConstructorShouldCreate,null,null,null,null,ArrayRectanglesTest.testConstructorShouldCreate:41 \00BB UnsupportedOperation,java.lang.UnsupportedOperationException\000A\0009at com.epam.rd.qa.classes.ArrayRectanglesTest.testConstructorShouldCreate(ArrayRectanglesTest.java:41)\000A
+
+
+# Created at 2022-07-22T02:24:14.881
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.ArrayRectanglesTest,testAddRectangle,null,null,null
+
+
+# Created at 2022-07-22T02:24:14.895
+Unexpected IOException: 7,1,com.epam.rd.qa.classes.ArrayRectanglesTest,testAddRectangle,null,null,null,null,ArrayRectanglesTest.testAddRectangle:75 \00BB UnsupportedOperation,java.lang.UnsupportedOperationException\000A\0009at com.epam.rd.qa.classes.ArrayRectanglesTest.testAddRectangle(ArrayRectanglesTest.java:75)\000A
+
+
+# Created at 2022-07-22T02:24:14.920
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.epam.rd.qa.classes.ArrayRectanglesTest,null,null,null
+
+
+# Created at 2022-07-22T02:24:14.930
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.epam.rd.qa.classes.RectangleTest,null,null,null
+
+
+# Created at 2022-07-22T02:24:14.936
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testConstructorShouldThrow,null,null,null
+
+
+# Created at 2022-07-22T02:24:14.941
+Unexpected IOException: 8,1,com.epam.rd.qa.classes.RectangleTest,testConstructorShouldThrow,null,The IllegalArgumentException should be thrown if length of sides less or equal to zero ==> Expected java.lang.IllegalArgumentException to be thrown\002C but nothing was thrown.,null,The IllegalArgumentException should be thrown if length of sides less or equal to zero ==> Expected java.lang.IllegalArgumentException to be thrown\002C but nothing was thrown.,RectangleTest.testConstructorShouldThrow:97 The IllegalArgumentException should be thrown if length of sides less or equal to zero ==> Expected java.lang.IllegalArgumentException to be thrown\002C but nothing was thrown.,org.opentest4j.AssertionFailedError: The IllegalArgumentException should be thrown if length of sides less or equal to zero ==> Expected java.lang.IllegalArgumentException to be thrown\002C but nothing was thrown.\000A\0009at com.epam.rd.qa.classes.RectangleTest.testConstructorShouldThrow(RectangleTest.java:97)\000A
+
+
+# Created at 2022-07-22T02:24:14.944
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testCompliance,null,null,null
+
+
+# Created at 2022-07-22T02:24:14.999
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testCompliance,null,null,null
+
+
+# Created at 2022-07-22T02:24:15.014
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[1],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.019
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[1],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.025
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[2],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.030
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[2],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.037
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[3],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.040
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[3],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.045
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[4],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.050
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[4],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.055
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[5],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.059
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[5],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.065
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[6],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.071
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[6],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.077
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[7],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.082
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[7],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.087
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[8],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.092
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[8],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.098
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[9],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.102
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[9],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.107
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[10],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.110
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[10],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.115
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[11],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.118
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[11],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.122
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[12],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.125
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[12],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.130
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[13],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.133
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[13],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.138
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[14],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.141
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[14],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.145
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[15],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.149
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[15],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.153
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[16],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.158
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[16],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.163
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[17],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.166
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[17],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.170
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[18],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.172
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[18],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.176
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[19],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.179
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[19],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.183
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[20],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.186
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testArea{double\002C double\002C double\002C double}[20],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.188
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testConstructorShouldCreate,null,null,null
+
+
+# Created at 2022-07-22T02:24:15.190
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testConstructorShouldCreate,null,null,null
+
+
+# Created at 2022-07-22T02:24:15.199
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testHashCodeEquals{double\002C double}[1],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.205
+Unexpected IOException: 8,1,com.epam.rd.qa.classes.RectangleTest,testHashCodeEquals{double\002C double}[1],null,The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@759d81f3> but was: <com.epam.rd.qa.classes.Rectangle@781a9412>,null,The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@759d81f3> but was: <com.epam.rd.qa.classes.Rectangle@781a9412>,RectangleTest.testHashCodeEquals:152 The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@759d81f3> but was: <com.epam.rd.qa.classes.Rectangle@781a9412>,org.opentest4j.AssertionFailedError: The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@759d81f3> but was: <com.epam.rd.qa.classes.Rectangle@781a9412>\000A\0009at com.epam.rd.qa.classes.RectangleTest.testHashCodeEquals(RectangleTest.java:152)\000A
+
+
+# Created at 2022-07-22T02:24:15.210
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testHashCodeEquals{double\002C double}[2],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.214
+Unexpected IOException: 8,1,com.epam.rd.qa.classes.RectangleTest,testHashCodeEquals{double\002C double}[2],null,The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@29f0802c> but was: <com.epam.rd.qa.classes.Rectangle@3a60c416>,null,The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@29f0802c> but was: <com.epam.rd.qa.classes.Rectangle@3a60c416>,RectangleTest.testHashCodeEquals:152 The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@29f0802c> but was: <com.epam.rd.qa.classes.Rectangle@3a60c416>,org.opentest4j.AssertionFailedError: The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@29f0802c> but was: <com.epam.rd.qa.classes.Rectangle@3a60c416>\000A\0009at com.epam.rd.qa.classes.RectangleTest.testHashCodeEquals(RectangleTest.java:152)\000A
+
+
+# Created at 2022-07-22T02:24:15.220
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testHashCodeEquals{double\002C double}[3],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.236
+Unexpected IOException: 8,1,com.epam.rd.qa.classes.RectangleTest,testHashCodeEquals{double\002C double}[3],null,The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@60f2e0bd> but was: <com.epam.rd.qa.classes.Rectangle@469d003c>,null,The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@60f2e0bd> but was: <com.epam.rd.qa.classes.Rectangle@469d003c>,RectangleTest.testHashCodeEquals:152 The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@60f2e0bd> but was: <com.epam.rd.qa.classes.Rectangle@469d003c>,org.opentest4j.AssertionFailedError: The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@60f2e0bd> but was: <com.epam.rd.qa.classes.Rectangle@469d003c>\000A\0009at com.epam.rd.qa.classes.RectangleTest.testHashCodeEquals(RectangleTest.java:152)\000A
+
+
+# Created at 2022-07-22T02:24:15.240
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testHashCodeEquals{double\002C double}[4],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.245
+Unexpected IOException: 8,1,com.epam.rd.qa.classes.RectangleTest,testHashCodeEquals{double\002C double}[4],null,The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@6b410923> but was: <com.epam.rd.qa.classes.Rectangle@57bd2029>,null,The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@6b410923> but was: <com.epam.rd.qa.classes.Rectangle@57bd2029>,RectangleTest.testHashCodeEquals:152 The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@6b410923> but was: <com.epam.rd.qa.classes.Rectangle@57bd2029>,org.opentest4j.AssertionFailedError: The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@6b410923> but was: <com.epam.rd.qa.classes.Rectangle@57bd2029>\000A\0009at com.epam.rd.qa.classes.RectangleTest.testHashCodeEquals(RectangleTest.java:152)\000A
+
+
+# Created at 2022-07-22T02:24:15.250
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testHashCodeEquals{double\002C double}[5],null,null,null
+
+
+# Created at 2022-07-22T02:24:15.261
+Unexpected IOException: 8,1,com.epam.rd.qa.classes.RectangleTest,testHashCodeEquals{double\002C double}[5],null,The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@203dd56b> but was: <com.epam.rd.qa.classes.Rectangle@e8fadb0>,null,The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@203dd56b> but was: <com.epam.rd.qa.classes.Rectangle@e8fadb0>,RectangleTest.testHashCodeEquals:152 The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@203dd56b> but was: <com.epam.rd.qa.classes.Rectangle@e8fadb0>,org.opentest4j.AssertionFailedError: The methods 'equals' and 'hashCode' must be implemented ==> expected: <com.epam.rd.qa.classes.Rectangle@203dd56b> but was: <com.epam.rd.qa.classes.Rectangle@e8fadb0>\000A\0009at com.epam.rd.qa.classes.RectangleTest.testHashCodeEquals(RectangleTest.java:152)\000A
+
+
+# Created at 2022-07-22T02:24:15.264
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testIsSquare,null,null,null
+
+
+# Created at 2022-07-22T02:24:15.277
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testIsSquare,null,null,null
+
+
+# Created at 2022-07-22T02:24:15.279
+Unexpected IOException: 5,1,com.epam.rd.qa.classes.RectangleTest,testReplaceSides,null,null,null
+
+
+# Created at 2022-07-22T02:24:15.286
+Unexpected IOException: 6,1,com.epam.rd.qa.classes.RectangleTest,testReplaceSides,null,null,null
+
+
+# Created at 2022-07-22T02:24:15.288
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.epam.rd.qa.classes.RectangleTest,null,null,null
+
+

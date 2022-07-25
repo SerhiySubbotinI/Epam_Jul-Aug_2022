@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.rd.autotasks.task03.Task03Test
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.191 s <<< FAILURE! - in com.epam.rd.autotasks.task03.Task03Test
+com.epam.rd.autotasks.task03.Task03Test.theMatrixIsNotChanged  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 0
+	at com.epam.rd.autotasks.task03.Task03Test.theMatrixIsNotChanged(Task03Test.java:38)
+
